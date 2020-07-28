@@ -1,0 +1,94 @@
+h3{
+    margin: 0px;
+    text-align: center;
+    font-family: "Roboto";
+    padding-top: 5px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+}
+form{
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+}
+.maindiv{
+    height: 700px;
+    background-image: url(../img/cocoa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.seconddiv{
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+    left: 20%;
+    top: 20%;
+    border-spacing: 0px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 0px;
+    height: 500px;
+    width: 800px;
+    margin: 0px;
+}
+.regform{
+    display: inline-block;
+    width: 390px;
+    height: 500px;
+    position: absolute;
+    bottom:0;
+    background-color: white;
+}
+.signform{
+    background-image: url(../img/kuapa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 400px;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 15px 0px 0px 15px;
+}
+input{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 5px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(161, 161, 161);
+    border-radius: 4px;
+}
+input:focus {
+    border: 3px solid #555;
+  }
+select{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 5px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(161, 161, 161);
+    background-color: #f1f1f1;
+    border-radius: 4px;
+}
+label{
+    margin: 0px 22px;
+    font-family: "Roboto";
+}
+p{
+    text-align: right;
+    font-size: 16sp;
+    font-family: "Roboto";
+    margin-right: 22px;
+}
+input[type=submit]{
+    background-color: rgb(55, 32, 204);
+    color: white;
+    font-family: "Roboto";
+    border: none;
+}
+input:hover{
+    box-shadow: 1px 1px 20px rgba(85, 85, 85, 0.5);
+}
