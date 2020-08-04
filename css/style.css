@@ -92,3 +92,7 @@ input[type=submit]{
 input:hover{
     box-shadow: 1px 1px 20px rgba(85, 85, 85, 0.5);
 }
+.tablediv{
+    height: 200px;
+    text-align: center;
+}
